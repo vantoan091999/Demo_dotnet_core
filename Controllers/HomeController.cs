@@ -7,6 +7,7 @@ namespace Demo_Net2.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    GiaiPhuongTrinh gpt = new GiaiPhuongTrinh();
 
     public HomeController(ILogger<HomeController> logger)
     {
@@ -72,4 +73,25 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+    [HttpGet]
+    public IActionResult GiaiPhuongTrinh() {
+        return View();    
+    }
+    [HttpPost]
+    public IActionResult GiaiPhuongTrinh(string heSoA, string heSoB) {
+        
+        string ThongBao = gpt.GiaiPhuongTrinhBacNhat(heSoA, heSoB);
+        ViewBag.message = ThongBao;
+    }
+    [HttpGet]
+    public IActionResult GiaiPhuongTringBac2() {
+        return View();
+    }
+
+    [HttpPost]
+
+    public IActionResult GiaiPhuongTringBac2(string heSoA, string heSoB, string heSoC) {
+        
+    }
 }
+
