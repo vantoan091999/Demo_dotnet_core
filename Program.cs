@@ -1,5 +1,11 @@
+using Demo_Net2.Data;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultCOnnection"):
+builder.Services.AddDbContext<ApplicationDbContext>(options => 
+        options.UseSpLite(connectionString);
+    )
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

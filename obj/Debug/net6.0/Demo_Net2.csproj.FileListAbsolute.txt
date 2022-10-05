@@ -1,0 +1,8 @@
+C:\Users\nguye\OneDrive\Desktop\Dot_net_core\Demo_dotnet_core\obj\Debug\net6.0\Demo_Net2.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Desktop\Dot_net_core\Demo_dotnet_core\obj\Debug\net6.0\Demo_Net2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive\Desktop\Dot_net_core\Demo_dotnet_core\obj\Debug\net6.0\Demo_Net2.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Desktop\Dot_net_core\Demo_dotnet_core\obj\Debug\net6.0\Demo_Net2.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Desktop\Dot_net_core\Demo_dotnet_core\obj\Debug\net6.0\Demo_Net2.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Desktop\Dot_net_core\Demo_dotnet_core\obj\Debug\net6.0\Demo_Net2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nguye\OneDrive\Desktop\Dot_net_core\Demo_dotnet_core\obj\Debug\net6.0\Demo_Net2.RazorAssemblyInfo.cache
+C:\Users\nguye\OneDrive\Desktop\Dot_net_core\Demo_dotnet_core\obj\Debug\net6.0\Demo_Net2.RazorAssemblyInfo.cs
